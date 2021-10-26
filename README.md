@@ -1,2 +1,2 @@
 # backtester_summer2021
-Public repository for our backtester project summer 2021 version. Commodity_cointegration is a example implementation of a pair-trading strategy using symbols selected through Engle-Granger cointegration tests.
+Public repository for our summer 2021 backtester project. Commodity_cointegration is a example implementation of a pair-trading strategy using symbols selected through Engle-Granger cointegration tests.
