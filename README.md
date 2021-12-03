@@ -3,8 +3,7 @@ Public repository for our summer 2021 backtester project. Commodity_cointegratio
 Authors: Cham Yao, Matt Malitz, Thomas Clark.
 
 **Backtester Package Overview:**
-
-*Use*
+Use:
   - import backtester.py from the backtester_package directory
   - input price history by providing the file path to directory containing ticker histories (.csv), fucntion: backtester.import_price_history *history directories can be generated from Yahoo Finance by using download_directory function in utilities.py (parameters: file path for .csv containing ticker symbols, start date, end date) 
   - run test by calling backtester.test (parameters: strategy function *see strategy function outline, test name, start date, end date)
