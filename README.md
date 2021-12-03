@@ -1,6 +1,6 @@
 # backtester_summer2021
 Public repository for our independently designed/written summer 2021 backtester project, a package that can be used to backtest market trading strategies. Commodity_cointegration is a example implementation of a pair-trading strategy using symbols selected through Engle-Granger cointegration tests. Design notes attached. 
-Authors: Cham Yao, Matt Malitz, Thomas Clark. 
+**Authors: Cham Yao, Matt Malitz, Thomas Clark.**
 
 **Backtester Package Use Overview:**
   - import backtester.py from the backtester_package directory
