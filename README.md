@@ -18,4 +18,4 @@ Example of a project utilizing the backtester package. Strategy function follows
 
 ***Strategy function outline:**
 Strategy function refers to the first parameter in backtester.test, which takes in a function. The implementation of these functions is up to the programmer, the only restrictions being that they do not take in any parameters and output a descriptive string detailing actions to be taken by the backtester each time it is called. 
-- A full outline of supported actions are outlined in the design notes and the apply_string function in utilities.py (Examples of actions include: open or close positions of a symbol as needed to reach a specific target percent of the total portfolio, open or close positions of a symbol by a specified amount, etc.) 
+- A full outline of supported actions can be found in the design notes or the apply_string function in utilities.py (Examples of actions include: open or close positions of a symbol as needed to reach a specific target percent of the total portfolio, open or close positions of a symbol by a specified amount, etc.) 
