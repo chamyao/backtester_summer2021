@@ -8,8 +8,10 @@ backtester.import_price_history('List of commodity ETFs_history')
 strategy, spread, entry, exit = get_pair_strategy('CORN', 'WEAT', 1.5, 0, 10, 300, 1)
 # strategy = sample_strategy.moving_cross_strategy
 title = 'OUNZ | SGOL, entry:2, exit:0, lookback:50, spread_window:200'
+print("FOR DIAGNOSTICS SCROLL TO BOTTOM")
 total_return, sharpe, returns, values = backtester.test(strategy, title, '2016-01-01', '2021-01-01', 0)
-print(str(sharpe))
+print("SHARPE VALUE:" + str(sharpe))
+print("TOTAL RETURN:" + str(total_return))
 
 # plt.plot(returns)
 # plt.plot(values)
