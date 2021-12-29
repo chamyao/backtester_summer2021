@@ -3,7 +3,7 @@ Public repository for our independently designed/written summer 2021 backtester 
 **Authors: Cham Yao, Matt Malitz, Thomas Clark.**
 
 **VIDEO WALKTHROUGH (recommended):**
-https://youtu.be/bWUyIAkKHtw
+https://youtu.be/7Xz__hawlLo
 
 **TO RUN EXAMPLE:**
 run main.py from /commodity_cointegration in a venv, running from an IDE (ie. Pycharm) will suffice.
